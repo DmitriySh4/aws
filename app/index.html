@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>AWS</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://kit.fontawesome.com/15f794b25d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-12 header-top">
+					<div class="menu-toggle d-lg-none d-block">
+						<a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
+					</div>
+					<div class="logo">
+						<a href="#"><img src="images/logo.png"></a>
+					</div>
+					<div class="search d-none d-md-block">
+						<div class="input-group">
+						  <input type="search" class="form-control" placeholder="Search" />
+						  <button type="button" class="btn btn-primary">
+						    <i class="fa fa-search"></i>
+						  </button>
+						</div>
+					</div>
+					<div class="search-toggle d-block d-md-none">
+						<a href="#"><i class="fa fa-search"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid menu-wrapper" id="navbar">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 menu">
+						<ul>
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Services</a></li>
+							<li><a href="#">Portfolio</a></li>
+							<li><a href="#">Gallery</a></li>
+							<li><a href="#">Help & FAQ</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="page-wrapper container">
+		<div class="row">
+			<div class="col-12 section">
+				<h2 class="title">Buttons</h2>
+				<div class="buttons">
+					<button type="button" class="btn btn-primary">Primary</button>
+					<button type="button" class="btn btn-default">Default</button>
+					<button type="button" class="btn btn-success">Success</button>
+					<button type="button" class="btn btn-info">Info</button>
+					<button type="button" class="btn btn-warning">Warning</button>
+					<button type="button" class="btn btn-danger">Danger</button>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 section">
+				<h2 class="title">Inputs</h2>
+				<div class="inputs">
+					<div class="inputs-checkboxes inputs-entity">
+						<div class="form-check">
+						  <input class="form-check-input" type="checkbox" value="" id="check-1">
+						  <label class="form-check-label" for="check-1">
+						    Default checkbox
+						  </label>
+						</div>
+						<div class="form-check">
+						  <input class="form-check-input" type="checkbox" value="" id="check-2" checked>
+						  <label class="form-check-label" for="check-2">
+						    Default checkbox
+						  </label>
+						</div>
+					</div>
+					<div class="inputs-radios inputs-entity">
+						<div class="form-check">
+						  <input class="form-check-input" type="radio" name="flexRadioDefault" id="radio-1">
+						  <label class="form-check-label" for="radio-1">
+						    Default radio
+						  </label>
+						</div>
+						<div class="form-check">
+						  <input class="form-check-input" type="radio" name="flexRadioDefault" id="radio-2" checked>
+						  <label class="form-check-label" for="radio-2">
+						    Default radio
+						  </label>
+						</div>
+					</div>
+					<div class="inputs-swithces inputs-entity">
+						<div class="form-check form-switch">
+						  <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+						  <label class="form-check-label" for="flexSwitchCheckDefault">Switcher</label>
+						</div>
+						<div class="form-check form-switch">
+						  <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+						  <label class="form-check-label" for="flexSwitchCheckChecked">Switcher</label>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="coll-md-12 section">
+				<h2 class="title">Star Rating</h2>
+				<div class="ratings">
+					<div class="rating-show">
+					    <div class="rating-show-filled" style="width: 50%">
+					        <i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+					    </div>
+					    <div class="rating-show-empty">
+					        <i class="fa fa-star-o" aria-hidden="true"></i>
+							<i class="fa fa-star-o" aria-hidden="true"></i>
+							<i class="fa fa-star-o" aria-hidden="true"></i>
+							<i class="fa fa-star-o" aria-hidden="true"></i>
+							<i class="fa fa-star-o" aria-hidden="true"></i>
+					    </div>
+					</div>
+					<span>Show ratings</span>
+				</div>
+				<div class="ratings">
+					<div class="rating-select">
+					    <form>
+						    <div class="radio-rating">
+						      <input type="radio" id="rating-5" name="rating" value="5" />
+						      <label for="rating-5"></label>
+						      <input type="radio" id="rating-4" name="rating" value="4"/>
+						      <label for="rating-4"></label>
+						      <input type="radio" id="rating-3" name="rating" value="3" />
+						      <label for="rating-3"></label>
+						      <input type="radio" id="rating-2" name="rating" value="2" />
+						      <label for="rating-2"></label>
+						      <input type="radio" id="rating-1" name="rating" value="1" />
+						      <label for="rating-1"></label>
+						    </div>
+						</form>
+					</div>
+					<span>Check ratings</span>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 section">
+				<h2 class="title">Carousel</h2>
+				<div id="slider" class="carousel slide" data-bs-ride="carousel">
+				  <div class="carousel-inner">
+				    <div class="carousel-item active">
+				      <div class="carousel-card card">
+				      	  <div class="card-img">
+					      	<img src="images/slide1.jpg">
+					      </div>
+					      <div class="card-content">
+					      	<p>When I started, I weighed over 425 pounds. What matters is that you take the steps and focus on making one good choice at a time.</p>
+					      	<h4>Chewbacca</h4>
+					      	<span class="date">July 2017</span>
+					      </div>
+				      </div>
+				    </div>
+				    <div class="carousel-item">
+				      <div class="carousel-card card">
+				      	  <div class="card-img">
+					      	<img src="images/slide1.jpg">
+					      </div>
+					      <div class="card-content">
+					      	<p>When I started, I weighed over 425 pounds. What matters is that you take the steps and focus on making one good choice at a time.</p>
+					      	<h4>Chewbacca</h4>
+					      	<span class="date">July 2017</span>
+					      </div>
+				      </div>
+				    </div><div class="carousel-item">
+				      <div class="carousel-card card">
+				      	  <div class="card-img">
+					      	<img src="images/slide1.jpg">
+					      </div>
+					      <div class="card-content">
+					      	<p>When I started, I weighed over 425 pounds. What matters is that you take the steps and focus on making one good choice at a time.</p>
+					      	<h4>Chewbacca</h4>
+					      	<span class="date">July 2017</span>
+					      </div>
+				      </div>
+				    </div>
+				  </div>
+				  <div class="carousel-indicators">
+				  	<div class="slider-indicator active" data-bs-target="#slider" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1">
+				  		<img src="images/slide1.jpg" class="d-block w-100">
+				  	</div>
+				  	<div class="slider-indicator" data-bs-target="#slider" data-bs-slide-to="1" aria-label="Slide 1">
+				  		<img src="images/slide1.jpg" class="d-block w-100">
+				  	</div>
+				  	<div class="slider-indicator" data-bs-target="#slider" data-bs-slide-to="2" aria-label="Slide 2">
+				  		<img src="images/slide1.jpg" class="d-block w-100">
+				  	</div>
+				  </div>
+				  <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
+				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="visually-hidden">Previous</span>
+				  </button>
+				  <button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="visually-hidden">Next</span>
+				  </button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="container-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 footer-wrapper">
+					<div class="footer-col expandable">
+						<h5><a href="#">Shop <i class="fa fa-angle-down" aria-hidden="true"></i></a></h5>
+						<ul>
+							<li><a href="#">Browse By Holidays</a></li>
+							<li><a href="#">Browse By Brand</a></li>
+							<li><a href="#">Gift of the Month</a></li>
+							<li><a href="#">Clubs</a></li>
+						</ul>
+					</div>
+					<div class="footer-col expandable">
+						<h5><a href="#">About <i class="fa fa-angle-down" aria-hidden="true"></i></a></h5>
+						<ul>
+							<li><a href="#">Browse By Holidays</a></li>
+							<li><a href="#">Browse By Brand</a></li>
+							<li><a href="#">Gift of the Month</a></li>
+							<li><a href="#">Clubs</a></li>
+						</ul>
+					</div>
+					<div class="footer-col expandable">
+						<h5><a href="#">More <i class="fa fa-angle-down" aria-hidden="true"></i></a></h5>
+						<ul>
+							<li><a href="#">Browse By Holidays</a></li>
+							<li><a href="#">Browse By Brand</a></li>
+							<li><a href="#">Gift of the Month</a></li>
+							<li><a href="#">Clubs</a></li>
+						</ul>
+					</div>
+					<div class="footer-col">
+						<h5><a href="#">Follow us</a></h5>
+						<ul>
+							<li class="footer-socials">
+								<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/script.js"></script>
+</body>
+</html>
